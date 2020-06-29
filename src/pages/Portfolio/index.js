@@ -4,7 +4,7 @@ import portfolioInfo from "../../utils/porfolioInfo.json"
 
 function Portfolio() {
     return (
-        <div>
+        <div className="row">
             {portfolioInfo.map(info => (
                 <PortfolioCard
                     key={info.id}
