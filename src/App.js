@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import Navbar from "./components/Navbar"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
+
   return (
-    <BrowserRouter>
-      <div>
+    <div>
+      <Navbar />
+      <BrowserRouter>
         <Switch>
           <Route exact path={["/", "/about"]}>
-            <About />
+            <About 
+            children= "Welcome!"/>
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />
@@ -20,8 +24,9 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
+
   );
 }
 
