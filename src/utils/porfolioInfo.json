@@ -9,18 +9,18 @@
     },
     {
         "id": 1,
-        "name": "Weather Dashboard",
-        "description": "A weather app that makes use of the OpenWeather API.",
-        "gitHub": "https://github.com/rpounceyjr/Weather-Dashboard",
-        "url": "https://rpounceyjr.github.io/Weather-Dashboard/",
-        "image": "public/images/weather_dashboard_pic.png"
-    },
-    {
-        "id": 2,
         "name": "My Familiar",
         "description": "An app for creating, updating, and maintaining Dungeons and Dragons characters. The app uses node.JS and Express, MySQL for data persitence, and Socket.IO for a real-time chat app.",
         "gitHub": "https://github.com/childovhurin/My-Familiar",
         "url": "https://murmuring-harbor-07987.herokuapp.com/",
+        "image": "public/images/weather_dashboard_pic.png"
+    },
+    {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "description": "A weather app that makes use of the OpenWeather API.",
+        "gitHub": "https://github.com/rpounceyjr/Weather-Dashboard",
+        "url": "https://rpounceyjr.github.io/Weather-Dashboard/",
         "image": "public/images/weather_dashboard_pic.png"
     },
     {
@@ -31,5 +31,4 @@
         "url": null,
         "image": "public/images/team_template_engine_pic.png"
     }
-
 ]

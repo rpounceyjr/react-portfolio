@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import Navbar from "./components/Navbar"
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import Contact from "./pages/Contact"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
 
   );
