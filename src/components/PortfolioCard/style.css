@@ -1,5 +1,5 @@
 .card {
-    height: 300px;
+    /* height: 300px; */
     margin-top: 15px;
     box-shadow: 5px 5px 5px 2px lightgray;
     transform-style: preserve-3d;
@@ -9,6 +9,10 @@
     box-shadow: 8px 8px 8px 4px gray;
     transition: all .15s ease-in;
     transform: rotateY(180);
+}
+
+.card-img-top {
+    height: 150px;
 }
 
 .card-text {

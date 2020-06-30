@@ -13,7 +13,7 @@
         "description": "An app for creating, updating, and maintaining Dungeons and Dragons characters. The app uses node.JS and Express, MySQL for data persitence, and Socket.IO for a real-time chat app.",
         "gitHub": "https://github.com/childovhurin/My-Familiar",
         "url": "https://murmuring-harbor-07987.herokuapp.com/",
-        "image": "/public/images/weather_dashboard_pic.png"
+        "image": "/images/weather_dashboard_pic.png"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "description": "A weather app that makes use of the OpenWeather API.",
         "gitHub": "https://github.com/rpounceyjr/Weather-Dashboard",
         "url": "https://rpounceyjr.github.io/Weather-Dashboard/",
-        "image": "/public/images/weather_dashboard_pic.png"
+        "image": "/images/weather_dashboard_pic.png"
     },
     {
         "id": 3,
@@ -29,6 +29,6 @@
         "description": "A command line program that uses ES6 classes to create an HTML page for a work team based on input received from inquirer.",
         "gitHub": "https://github.com/rpounceyjr/Template-Engine-Employee-Summary",
         "url": null,
-        "image": "/public/images/team_template_engine_pic.png"
+        "image": "/images/team_template_engine_pic.png"
     }
 ]
