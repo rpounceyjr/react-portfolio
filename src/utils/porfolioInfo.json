@@ -5,7 +5,7 @@
         "description": "The avid hiker's companion, this app makes use of geolocation and the REI Hike Project API to generate a list of hikes based on user input.",
         "gitHub": "https://github.com/rpounceyjr/over-yonder",
         "url": "https://childovhurin.github.io/over-yonder/index.html",
-        "image": ""
+        "image": "/images/over-yonder.png"
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "description": "An app for creating, updating, and maintaining Dungeons and Dragons characters. The app uses node.JS and Express, MySQL for data persitence, and Socket.IO for a real-time chat app.",
         "gitHub": "https://github.com/childovhurin/My-Familiar",
         "url": "https://murmuring-harbor-07987.herokuapp.com/",
-        "image": "/images/weather_dashboard_pic.png"
+        "image": "/images/my-familiar.png"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "description": "A weather app that makes use of the OpenWeather API.",
         "gitHub": "https://github.com/rpounceyjr/Weather-Dashboard",
         "url": "https://rpounceyjr.github.io/Weather-Dashboard/",
-        "image": "/images/weather_dashboard_pic.png"
+        "image": "/images/weather-dashboard.png"
     },
     {
         "id": 3,
@@ -29,6 +29,22 @@
         "description": "A command line program that uses ES6 classes to create an HTML page for a work team based on input received from inquirer.",
         "gitHub": "https://github.com/rpounceyjr/Template-Engine-Employee-Summary",
         "url": null,
-        "image": "/images/team_template_engine_pic.png"
+        "image": "/images/team-template-engine.png"
+    },
+    {
+        "id": 4,
+        "name": "React Employee Directory",
+        "description": "An employee directory built with React. Users are able to filter employees by name, and sort employees by position and department.",
+        "gitHub": "https://github.com/rpounceyjr/employee-directory",
+        "url": "https://rpounceyjr.github.io/employee-directory/",
+        "image": "/images/employee-directory.png"
+    },
+    {
+        "id": 5,
+        "name": "Fitness Tracker",
+        "description": "Experience the cleverly-named Fitness Tracker, an app that uses Node, Express, MongoDB, and Mongoose to track your workout progress and help you reach your fitness goals!",
+        "gitHub": "https://github.com/rpounceyjr/Workout-Tracker",
+        "url": null,
+        "image": "/images/fitness-tracker.png"
     }
 ]

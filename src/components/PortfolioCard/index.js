@@ -4,8 +4,8 @@ import "./style.css"
 
 function PortfolioCard({name, description, gitHub, url, image}) {
     return (
-    <div className="col-lg-6 col-xs-12">
-                <div className="card mx-auto">
+    <div className="col-lg-6">
+                <div className="card mx-auto col-xs-8 offset-xs-2">
                     <img src={process.env.PUBLIC_URL + image} className="card-img-top" alt={name} />
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">{name}</h5>
