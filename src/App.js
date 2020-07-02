@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -15,14 +14,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path={["/react-portfolio", "/react-portfolio/about"]}>
-            <About
-              children="Welcome!" />
+            <About />
           </Route>
           <Route exact path="/react-portfolio/portfolio">
             <Portfolio />
-          </Route>
-          <Route exact path="/react-portfolio/contact">
-            <Contact />
           </Route>
         </Switch>
       </BrowserRouter>

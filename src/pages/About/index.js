@@ -13,7 +13,7 @@ function About() {
             <div className="container">
                 <Bio />
                 <section className="row">
-                    <div className="col-sm-8 logos-col offset-sm-2 logos-row-container">
+                    <div className="col-sm-8 col-md-8 logos-col offset-sm-2 logos-row-container">
                         <div className="row logos-row justify-content-center">
                             <MernLogo
                                 image={mongoImage} />

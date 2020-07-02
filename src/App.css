@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  font-family: 'Nunito', sans-serif;
+  width: 960px;
+  margin-top: 100px;
+}

@@ -19,9 +19,6 @@ function Navbar() {
                 <li className="nav-item">
                     <Link to="/react-portfolio/portfolio" className="nav-link">Portfolio</Link>
                 </li>
-                <li className="nav-item">
-                    <Link to="/react-portfolio/contact" className="nav-link">Contact</Link>
-                </li>
             </ul>
         </div>
     </nav>
