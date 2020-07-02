@@ -7,14 +7,10 @@ import nodeImage from "../../utils/mern-images/node-logo.png"
 import MernLogo from "../../components/MernLogo";
 import Bio from "../../components/Bio"
 
-function About(props) {
+function About() {
     return (
         <div>
             <div className="container">
-                <section>
-                    <div className="top-div">
-                    </div>
-                </section>
                 <Bio />
                 <section className="row">
                     <div className="col-sm-8 logos-col offset-sm-2 logos-row-container">
