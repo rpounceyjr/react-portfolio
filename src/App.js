@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Switch>
           <Route exact path={["/react-portfolio", "/react-portfolio/about"]}>
             <About
