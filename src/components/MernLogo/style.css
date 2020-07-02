@@ -1,0 +1,4 @@
+.logo-img:hover {
+    zoom: 1.01;
+    transition: all 1s ease-in;
+}

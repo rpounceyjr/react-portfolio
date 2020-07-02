@@ -1,0 +1,42 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../utils/about-background.jpg");
+
+}
+
+.top-div {
+    height: 100px;
+}
+
+.bio-text {
+    font-family: 'Nunito', sans-serif;
+    height: 40px;
+    justify-content: center;
+}
+
+.logo-img {
+    height: 75px;
+}
+
+.logo-background-div {
+    height: 80px;
+    width: 80px;
+    border-radius: 37.5px;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+}
+
+.logos-row {
+    padding-top: 5px;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.bio-line-6 {
+    justify-content: center;
+    font-weight: 700;
+    font-size: large;
+}
+

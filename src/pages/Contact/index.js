@@ -1,9 +1,10 @@
-import React from "react"
+import React from "react";
+import "./style.css";
 
 function Contact(props) {
     return (
         <div className="container">
-            <form>
+            <form >
                 <div className="form-group">
                     <label for="exampleInputEmail1">Name</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

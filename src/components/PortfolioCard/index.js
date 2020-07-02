@@ -12,8 +12,8 @@ function PortfolioCard({name, description, gitHub, url, image}) {
                         <hr />
                         <p className="card-text">{description}</p>
                         <hr />
-                        {url && <a href={url} className="btn btn-secondary"><img src= {process.env.PUBLIC_URL + '/images/web-logo.png'} alt="Application URL" width="32px" height="32px" /></a>}
-                        <a href={gitHub} className="btn btn-secondary"><img src= {process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt="GitHub" width="32px" height="32px" /></a>
+                        {url && <a href={url} className="btn btn-secondary"><img src= {process.env.PUBLIC_URL + "/images/web-logo.png"} alt="Application URL" width="32px" height="32px" /></a>}
+                        <a href={gitHub} className="btn btn-secondary"><img src= {process.env.PUBLIC_URL + "/images/GitHub-Mark-32px.png"} alt="GitHub" width="32px" height="32px" /></a>
                     </div>
                 </div>
             </div>

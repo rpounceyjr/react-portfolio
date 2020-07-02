@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path={["/", "/about"]}>
-            <About 
-            children= "Welcome!"/>
+            <About
+              children="Welcome!" />
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />
