@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return(
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <Link  to="/"className="navbar-brand">Roger Pouncey</Link>
+        <a  href="#"className="navbar-brand">Roger Pouncey</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
