@@ -4,13 +4,13 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Switch>
           <Route exact path={["/react-portfolio", "/react-portfolio/about"]}>
@@ -20,7 +20,7 @@ function App() {
             <Portfolio />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
 
